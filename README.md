@@ -2,6 +2,12 @@
 
 This notebook demonstrates a number plate recognition system using various techniques. It begins by loading a pre-trained object detection model and provides a basic web interface for image upload and bounding box prediction. Subsequently, it explores the use of YOLOv10 for real-time object detection, fine-tunes the model on a custom dataset, evaluates its performance, and integrates it with OCR for text extraction from detected number plates. The notebook also includes functionalities for creating a Gradio interface for user interaction, processing video frames to detect moving vehicle number plates, and deploying the final model to Hugging Face. Key components include model loading, prediction, OCR integration, model training and validation, and model deployment.
 
+## Huggingface deployment 
+Car number plate recognition using YOLO https://huggingface.co/spaces/arupchakraborty2004/image-recognition-yolo
+Car number plate recognition for moving car https://huggingface.co/spaces/arupchakraborty2004/number-plate-detection-moving-vehicle
+
+## Project Summary
+
 1. YOLO-based detection:
    - Uses YOLOv8 to detect license plates in images and videos.
    - Employs the supervision library for visualization of detections.
